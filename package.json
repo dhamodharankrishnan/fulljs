@@ -4,7 +4,7 @@
   "description": "Learning full stack JS , Mongo DB, Node.js and React.js",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon --exec babel-node server.js --ignore public/",
+    "start" : "nodemon --exec babel-node server.js --max-old-space-size=16000 --ignore public/",
     "dev" : "webpack -wd"
   },
   "repository": {
